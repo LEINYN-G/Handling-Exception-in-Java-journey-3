@@ -28,3 +28,30 @@ an exception called ArrayIndexOutOfBoundsException which needs to be handled.*/
 java.lang.ArrayIndexOutOfBoundsException: Index 5
 out of bounds for length 5
 at Handling.main(Handling.java:4)*/
+//1) Implementing getMessage
+public class Handling{
+  public static void main(String[] args) {
+   try {
+    int[] myNumbers = {1,2,3,4,5};
+    System.out.println(myNumbers[5]);
+   } catch(ArrayIndexOutOfBoundsException e) {
+     System.out.println(e.getMessage());  //Using getMessage() here
+  }
+ }
+} 
+//output: Index 5 out of bounds for length 5
+
+//2) Implementing printStackTrace
+public class Handling {
+ public static void main(String[] args) {
+  try {
+   int[] myNumbers = {1,2,3,4,5};
+   System.out.println(e.getMessage());
+   e.printStackTrace();  //Using printStackTrace() here
+  }
+ }
+} 
+/* output: Index 5 out of bounds for length 5
+java.lang.ArrayIndexOutOfBoundsException: Index 5
+out of bounds for length 5
+at Handling.main(Handling.java:5) */
