@@ -9,7 +9,7 @@
 
 Let's Bring the try-catch structure into the picture with the help of a simple code.
 
-<img src="Image/error.jpeg" alt="App Screenshot" width="200" height="200">
+<img src="Image/error.jpeg" alt="App Screenshot" width="300" height="200">
 
 
 With the rise of OOP, exception support has become a crucial element of modern programming languages. 
